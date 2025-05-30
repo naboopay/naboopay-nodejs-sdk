@@ -1,6 +1,6 @@
 # NabooPay Node.js SDK Workshop
 
-Hey there! Welcome to this fun and practical workshop on using the NabooPay Node.js SDK. This guide will walk you through installing the SDK, setting up the client, and performing cool operations like retrieving account details, managing transactions, and handling cashouts—all with a sprinkle of humor to keep things light. Since Node.js loves async, all our examples use `async/await`. Let’s dive in!
+Hey there! Welcome to this fun and practical workshop on using the NabooPay Node.js SDK. This guide will walk you through installing the SDK, setting up the client, and performing cool operations like retrieving account details, managing transactions, and handling cashouts all with a sprinkle of humor to keep things light. Since Node.js loves async, all our examples use `async/await`. Let’s dive in!
 
 ## Table of Contents
 
@@ -63,7 +63,7 @@ const naboopayClient = new NabooPay(token);
 
 ## Operations
 
-Now for the fun part—let’s do stuff with the NabooPay API! We’ll cover account details, transactions, and cashouts, all async style.
+Now for the fun part let’s do stuff with the NabooPay API! We’ll cover account details, transactions, and cashouts, all async style.
 
 ### Retrieve Account Details
 
