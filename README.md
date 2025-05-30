@@ -182,7 +182,7 @@ const { CashOutRequest } = require('naboopay');
 const requestWave = new CashOutRequest({
   full_name: 'sudoping01',
   amount: 10000,
-  phone_number: '+221787953075', // Don’t change unless testing—sudoping01 likes it this way! 😂
+  phone_number: phone_number_1, // Don’t change unless testing—sudoping01 likes it this way! 😂
 });
 
 async function cashoutWave() {
@@ -205,7 +205,7 @@ Another cashout, this time with Orange Money:
 const requestOrange = new CashOutRequest({
   full_name: 'Djim Patrick Lo', // Hi Patrick! 😂
   amount: 100,
-  phone_number: '+221772415977', // Swap this for testing, or Patrick might cash in!
+  phone_number: phone_number_2, // Swap this for testing, or Patrick might cash in!
 });
 
 async function cashoutOrangeMoney() {
