@@ -38,7 +38,7 @@ Before we get fancy, we need to set up our client. This involves loading the API
 
 ### Token Loading
 
-Grab your API token from a `.env` file—it’s the safest way to keep secrets! Get one from the NabooPay dashboard if you don’t have it yet.
+Grab your API token from a `.env` file it’s the safest way to keep secrets! Get one from the NabooPay dashboard if you don’t have it yet.
 
 ```javascript
 require('dotenv').config();
@@ -182,7 +182,7 @@ const { CashOutRequest } = require('naboopay');
 const requestWave = new CashOutRequest({
   full_name: 'sudoping01',
   amount: 10000,
-  phone_number: phone_number_1, // Don’t change unless testing—sudoping01 likes it this way! 😂
+  phone_number: phone_number_1, // Don’t change unless testing sudoping01 likes it this way! 😂
 });
 
 async function cashoutWave() {
@@ -224,4 +224,4 @@ cashoutOrangeMoney();
 
 ## Wrapping Up
 
-And there you have it—a full workshop on using the NabooPay Node.js SDK! You’ve installed it, set up the client, and mastered account details, transactions, and cashouts, all with async flair. Pretty cool, right? Tweak the code, explore more features, and keep the good vibes going. Good integration 🫂!
+And there you have it a full workshop on using the NabooPay Node.js SDK! You’ve installed it, set up the client, and mastered account details, transactions, and cashouts, all with async flair. Pretty cool, right? Tweak the code, explore more features, and keep the good vibes going. Good integration 🫂!
