@@ -3,8 +3,8 @@ const { NabooPay, Wallet, ProductModel, TransactionRequest, DeleteTransactionReq
 
 // Load API token from environment variables
 const token = process.env.NABOOPAY_API_KEY;
-const phone_number_1 = process.env.PHONE_NUMBER_1
-const phone_number_2 = process.env.PHONE_NUMBER_2
+const phone_number_1 = process.env.TEST_NUMBER_1
+const phone_number_2 = process.env.TEST_NUMBER_2
 
 // Initialize the NabooPay client
 const naboopayClient = new NabooPay(token);
