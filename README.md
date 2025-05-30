@@ -25,9 +25,8 @@ Hey there! Welcome to this fun and practical workshop on using the NabooPay Node
 Kick things off by installing the NabooPay Node.js SDK. Clone the repo and install dependencies with these commands:
 
 ```bash
-git clone https://github.com/naboopay/naboopay-nodejs-sdk.git
-cd naboopay-nodejs-sdk
-npm install
+npm install git+https://github.com/naboopay/naboopay-nodejs-sdk.git
+
 ```
 
 ---
