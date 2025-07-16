@@ -1,10 +1,18 @@
 {
   "name": "naboopay",
-  "version": "1.0.0",
-  "description": "NabooPay Node.js SDK",
-  "main": "index.js",
+  "version": "2.0.0",
+  "description": "NabooPay Node.js SDK - TypeScript Edition",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "jest"
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "clean": "rm -rf dist",
+    "prepublishOnly": "npm run clean && npm run build",
+    "example": "ts-node examples/usage.ts"
   },
   "dependencies": {
     "axios": "^1.7.2",
@@ -12,9 +20,23 @@
     "dotenv": "^16.4.5"
   },
   "devDependencies": {
-    "jest": "^29.7.0"
+    "@types/async-retry": "^1.4.8",
+    "@types/jest": "^29.5.0",
+    "@types/node": "^20.0.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
   },
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "LICENSE"
+  ],
   "author": "sudoping01",
+  "contributors": [
+    "jmndao"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -30,6 +52,10 @@
     "orange money",
     "api",
     "sdk",
-    "fintech"
-  ]
+    "fintech",
+    "typescript"
+  ],
+  "engines": {
+    "node": ">=16.0.0"
+  }
 }
