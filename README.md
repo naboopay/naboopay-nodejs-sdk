@@ -139,8 +139,3 @@ MIT
 - Email: support@naboopay.com
 - Documentation: https://docs.naboopay.com
 - Issues: GitHub Issues
-
-## Contributors
-
-- @sudoping01 - Original Creator
-- @jmndao - Contributor
